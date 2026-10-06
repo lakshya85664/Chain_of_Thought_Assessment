@@ -1,0 +1,47 @@
+{
+  "claims": [
+    {
+      "evidence_ids": [
+        "input_present"
+      ],
+      "text": "The input question is present."
+    },
+    {
+      "evidence_ids": [
+        "answer_format_valid"
+      ],
+      "text": "The answer format is valid."
+    }
+  ],
+  "evidence_ids": [
+    "input_present",
+    "answer_format_valid"
+  ],
+  "input": "examples\\question.json",
+  "private_notes_present_in_internal_result": true,
+  "private_notes_serialized": false,
+  "public_output": {
+    "answer": "Answer supported by the checked evidence.",
+    "claims": [
+      {
+        "evidence_ids": [
+          "input_present"
+        ],
+        "text": "The input question is present."
+      },
+      {
+        "evidence_ids": [
+          "answer_format_valid"
+        ],
+        "text": "The answer format is valid."
+      }
+    ],
+    "evidence": [
+      "input_present",
+      "answer_format_valid"
+    ],
+    "uncertainty": null
+  },
+  "question": "What should be verified before providing an answer?",
+  "scenario": "complete_evidence"
+}

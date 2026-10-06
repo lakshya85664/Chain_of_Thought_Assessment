@@ -1,0 +1,30 @@
+{
+  "assessment": "Topic 4: Implement Chain-of-Thought in Code",
+  "core_tasks": 5,
+  "evidence_files": [
+    "evidence/traces/complete_evidence_trace.json",
+    "evidence/traces/incomplete_evidence_trace.json",
+    "evidence/state_snapshots/complete_evidence_state.json",
+    "evidence/state_snapshots/incomplete_evidence_state.json"
+  ],
+  "safety_properties": [
+    "private reasoning is kept separate",
+    "claims reference evidence IDs",
+    "sensitive fields are redacted",
+    "uncertainty is explicit when evidence is incomplete",
+    "private notes are excluded from public serialization"
+  ],
+  "scenarios": [
+    {
+      "name": "complete_evidence",
+      "status": "answer_generated",
+      "uncertainty": null
+    },
+    {
+      "name": "incomplete_evidence",
+      "status": "uncertain_answer",
+      "uncertainty": true
+    }
+  ],
+  "test_count": 30
+}

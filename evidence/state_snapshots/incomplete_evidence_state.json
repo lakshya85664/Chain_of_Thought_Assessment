@@ -1,0 +1,11 @@
+{
+  "answer": "The available evidence is incomplete, so a definitive answer cannot be established.",
+  "evidence": [
+    "input_present",
+    "evidence_incomplete"
+  ],
+  "private_notes_exposed": false,
+  "stage": "post_serialization",
+  "status": "incomplete_evidence",
+  "uncertainty": "Confidence is limited because the available evidence is incomplete."
+}

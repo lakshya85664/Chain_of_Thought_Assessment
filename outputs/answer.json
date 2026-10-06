@@ -1,0 +1,22 @@
+{
+  "answer": "Answer supported by the checked evidence.",
+  "claims": [
+    {
+      "evidence_ids": [
+        "input_present"
+      ],
+      "text": "The input question is present."
+    },
+    {
+      "evidence_ids": [
+        "answer_format_valid"
+      ],
+      "text": "The answer format is valid."
+    }
+  ],
+  "evidence": [
+    "input_present",
+    "answer_format_valid"
+  ],
+  "uncertainty": null
+}

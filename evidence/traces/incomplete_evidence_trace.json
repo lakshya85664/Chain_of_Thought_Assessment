@@ -1,0 +1,46 @@
+{
+  "claims": [
+    {
+      "evidence_ids": [
+        "input_present"
+      ],
+      "text": "The input question is present."
+    },
+    {
+      "evidence_ids": [
+        "evidence_incomplete"
+      ],
+      "text": "The available evidence is incomplete."
+    }
+  ],
+  "evidence_ids": [
+    "input_present",
+    "evidence_incomplete"
+  ],
+  "private_notes_serialized": false,
+  "public_output": {
+    "answer": "The available evidence is incomplete, so a definitive answer cannot be established.",
+    "claims": [
+      {
+        "evidence_ids": [
+          "input_present"
+        ],
+        "text": "The input question is present."
+      },
+      {
+        "evidence_ids": [
+          "evidence_incomplete"
+        ],
+        "text": "The available evidence is incomplete."
+      }
+    ],
+    "evidence": [
+      "input_present",
+      "evidence_incomplete"
+    ],
+    "uncertainty": "Confidence is limited because the available evidence is incomplete."
+  },
+  "question": "What should be verified when information is incomplete?",
+  "scenario": "incomplete_evidence",
+  "uncertainty_present": true
+}

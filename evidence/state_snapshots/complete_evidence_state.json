@@ -1,0 +1,11 @@
+{
+  "answer": "Answer supported by the checked evidence.",
+  "evidence": [
+    "input_present",
+    "answer_format_valid"
+  ],
+  "private_notes_exposed": false,
+  "stage": "post_serialization",
+  "status": "complete_evidence",
+  "uncertainty": null
+}
